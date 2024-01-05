@@ -1,0 +1,215 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{ 
+    background-color: black;
+    background-image: url(album-imgs/netflix-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.637);
+    object-fit: cover;
+}
+
+header{ 
+    padding: 20px 50px;
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+#user-sign-icon{ 
+    width: 50px; 
+}
+header>img{ 
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 200px;
+}
+.fuck-you-html{ 
+    padding: 0px 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sign-in{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 50px;
+}
+
+.sign-in-content{ 
+    background-color:rgba(0, 0, 0, 0.744);
+    height: 600px;
+    width: 450px;
+    border-radius: 8px;
+}
+.sign-in-header{ 
+    padding: 80px 0px 40px 60px;
+}
+.sign-in-header>h2{ 
+    font-size: 2.1rem;
+    color: white;
+    font-family: Helvetica,sans-serif;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.insert-content{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.insert-content>input{ 
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #333;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.button-container{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+
+}
+button{ 
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    padding: 15px 123px;
+    border-radius: 5px;
+    font-family: Helvetica,sans-serif;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.content-under-button{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 150px;
+    font-family: Helvetica,sans-serif;
+    color: #898888;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.Check-box{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.sign-up-text{ 
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+    gap: 7px;
+    width: 100%;
+    padding-top: 50px;
+}
+.sign-up-text>a:hover{ 
+    text-decoration: underline;
+    color: white;
+}
+.sign-up-text>p{ 
+    color:#8c8c8c;
+    font-family: Helvetica,sans-serif;
+    font-size: 1rem;
+}
+.sign-up-text>a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Helvetica,sans-serif;
+}
+.learn-more-paragraph>p{ 
+    color: #898888;
+    font-family: Helvetica,sans-serif;
+    font-size: 13px;
+    width: 100%;
+    margin: auto;
+}
+span{ 
+    color: blue;
+}
+
+footer{ 
+    width: 100%;
+    background-color: rgba(0,0,0,.75);
+    color: #737373;
+    font-family: Helvetica,sans-serif;
+    height: 40vh;
+    align-items: left;
+    justify-content: center;
+}
+.footer-container{ 
+    margin: 0 500px;
+    padding: 30px 0;
+}
+h3{ 
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    padding: 20px 0 50px 0;   
+    font-size: 16px; 
+}
+a{ 
+    color: #737373;
+    list-style: none;
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration: underline;
+}
+.footer-content>ul{ 
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+}
+li{ 
+    text-align: left;
+    padding: 10px 0;
+}
+
+select{ 
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: black;
+    color: rgb(161, 160, 160);
+    border: solid rgb(161, 160, 160) 1px; ;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
